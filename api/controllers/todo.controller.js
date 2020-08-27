@@ -14,12 +14,10 @@ const db = require('../../db');
 
 module.exports = {
     get: (req, res) => {
-        console.log(db.get('todo').value());
         res.json(db.get('todo').value())
     },
     detail: (req, res) => {
         const id = req.params.id;
-        console.log(typeof id);
         const todo = db.get('todo').find({ id: id }).value();
         res.json(todo);
     },
@@ -29,9 +27,7 @@ module.exports = {
         data.map((item, i) => {
             if(item.id === req.params.id) {
                 index = i;
-                console.log(index);
                 const id_put = data[index].id;
-                console.log(id_put);
                 const obj = {
                     "id": id_put,
                     "todo": req.body.todo || "",
@@ -62,9 +58,7 @@ module.exports = {
     },
     delete: (req, res) => {
         const arr = db.get('todo').value().filter(obj => obj.id !== req.params.id);
-        console.log(arr);
         const test = db.set('todo', arr).write();
-        console.log(test);
         res.json({message: 'Insert success!'})
     }
 }
