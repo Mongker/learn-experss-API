@@ -7,23 +7,23 @@
  * @university: UTT (Đại học Công Nghệ Giao Thông Vận Tải)
  */
 
-const express = require('express')
-const app = express()
-const bodyParser = require('body-parser')
+const express = require('express');
+const app = express();
+const bodyParser = require('body-parser');
 // require('dotenv').load()
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 2121;
 
-app.use(bodyParser.urlencoded({ extended: true }))
-app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
 
 
-let routes = require('./api/routes') //importing route
-routes(app)
+let routes = require('./api/routes'); //importing route
+routes(app);
 
 app.use(function(req, res) {
     res.status(404).send({url: req.originalUrl + ' not found'})
-})
+});
 
-app.listen(port)
+app.listen(port);
 
-console.log('RESTful API server started on: ' + port)
+console.log('RESTful API server started on: ' + port);

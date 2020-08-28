@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca32a849-509b-4b77-b3cc-b13de4656465" name="Default Changelist" comment="" />
+    <list default="true" id="ca32a849-509b-4b77-b3cc-b13de4656465" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,14 +17,17 @@
   <component name="ProjectId" id="1gErxhwHbAAwkSvNx1b7WuooL4j" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -32,10 +39,30 @@
       <option name="presentableId" value="Default" />
       <updated>1597690840329</updated>
       <workItem from="1597690841794" duration="108000" />
+      <workItem from="1598621375728" duration="122000" />
+      <workItem from="1598623133692" duration="101000" />
+      <workItem from="1598623668562" duration="294000" />
+      <workItem from="1598623971085" duration="341000" />
+      <workItem from="1598624321304" duration="518000" />
+      <workItem from="1598624858047" duration="155000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="449" y="167" width="1022" height="737" key="SettingsEditor" timestamp="1598624395260">
+      <screen x="0" y="27" width="1920" height="1011" />
+    </state>
+    <state x="449" y="167" width="1022" height="737" key="SettingsEditor/0.27.1920.1011@0.27.1920.1011" timestamp="1598624395260" />
+    <state x="718" y="379" width="474" height="314" key="cloudConfig.SelfSettingsDialog" timestamp="1598623944212">
+      <screen x="0" y="27" width="1920" height="1011" />
+    </state>
+    <state x="718" y="379" width="474" height="314" key="cloudConfig.SelfSettingsDialog/0.27.1920.1011@0.27.1920.1011" timestamp="1598623944212" />
+    <state x="624" y="241" key="run.anything.popup" timestamp="1598624335272">
+      <screen x="0" y="27" width="1920" height="1011" />
+    </state>
+    <state x="624" y="241" key="run.anything.popup/0.27.1920.1011@0.27.1920.1011" timestamp="1598624335272" />
   </component>
 </project>
