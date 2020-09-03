@@ -8,6 +8,7 @@
  */
 
 const express = require('express');
+const cors = require('cors');
 const app = express();
 const bodyParser = require('body-parser');
 // require('dotenv').load()
@@ -19,7 +20,10 @@ app.use(bodyParser.json());
 
 let routes = require('./api/routes'); //importing route
 routes(app);
-
+app.use(cors({
+    'origin': '*',
+    'methods': 'GET,HEAD,PUT,PATCH,POST,DELETE',
+  }));
 app.use(function(req, res) {
     res.status(404).send({url: req.originalUrl + ' not found'})
 });
