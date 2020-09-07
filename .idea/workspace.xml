@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ca32a849-509b-4b77-b3cc-b13de4656465" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +23,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../truecrypt1/VNReview" />
+    <property name="last_opened_file_path" value="$USER_HOME$/truecrypt1/VNReview" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,6 +51,7 @@
       <workItem from="1598623971085" duration="341000" />
       <workItem from="1598624321304" duration="518000" />
       <workItem from="1598624858047" duration="1535000" />
+      <workItem from="1599486516781" duration="1196000" />
     </task>
     <servers />
   </component>

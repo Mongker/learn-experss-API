@@ -18,15 +18,14 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 
-let routes = require('./api/routes'); //importing route
-routes(app);
+let todoRoutes = require('./api/routes'); //importing route
 app.use(cors({
     'origin': '*',
     'methods': 'GET,HEAD,PUT,PATCH,POST,DELETE',
   }));
-app.use(function(req, res) {
-    res.status(404).send({url: req.originalUrl + ' not found'})
-});
+app.use(todoRoutes);
+
+// app.use(todoRoutes);
 
 app.listen(port);
 
