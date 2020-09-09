@@ -7,23 +7,10 @@
  * @university: UTT (Đại học Công Nghệ Giao Thông Vận Tải)
  */
 
-// module.exports = function(app) {
-//     var controller = require('./controllers/todo.controller');
-  
-//     // todoList Routes
-//     app.route('/todo')
-//       .get(controller.get)
-//       .post(controller.store);
-  
-//     app.route('/todo/:id')
-//       .get(controller.detail)
-//       .put(controller.update)
-//       .delete(controller.delete);
-//   };
 const controller = require('./controllers/todo.controller');
 const express = require('express');
 const todoRoutes = express.Router();
-// todoRoutes.route('/todo').get(controller.get).post(controller.store);
-todoRoutes.route('/todo').get(controller.get);
-// todoRoutes.route('/todo/:id').get(controller.detail).put(controller.update).delete(controller.delete);
+todoRoutes.route('/todo').get(controller.get).post(controller.store);
+// todoRoutes.route('/todo').get(controller.get);
+todoRoutes.route('/todo/:id').get(controller.detail).put(controller.update).delete(controller.delete);
 module.exports = todoRoutes;
